@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+.text-center{
+  text-align: center;
+}
+
+.pad-70{
+  padding: 70px 0;
+}
+
+header{
+  padding: 35px 0 30px;
+}
+
+.header-wrapper{
+  overflow: auto;
+}
+
+.logo{
+  float: left;
+  width: 200px;
+}
+.logo img{
+  max-width: 100%;
+  display: block;
+  padding-top: 10px;
+
+}
+.nav{
+  float: right;
+  width: 750px;
+}
+
+.nav-menu{
+  list-style-type: none;
+}
+
+.nav-menu li{
+  float: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 80px;
+  margin-top: 10px;
+  
+}
+
+.nav li a{
+  text-decoration: none;
+  color: #626262;
+}
+
+/* banner parts start here  */
+
+.banner img{
+  width: 100%;
+  height: 30%;
+  
+}
+
+/* weekend text start here  */
+
+.tag,.comment{
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: 20px;
+  
+}
+.title{
+  color: #626262;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.desc{
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.comment{
+  text-decoration: none;
+}
+
+/* blog start here  */
+.post{
+  width: 47%;
+}
+
+.post img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.row{
+  overflow: auto;
+  margin-bottom: 70px;
+}
+
+.post-left{
+  float: left;
+}
+.post-right{
+  float: right;
+}
+
+.post-title{
+  margin-bottom: 15px 0;
+}
+
+/* sign up part start here  */
+
+.newsletter_wrap{
+  background-color: #f0f0f0;
+}
+
+form{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-control{
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #626262;
+}
+
+.input-group{
+  position: relative;
+}
+.paperplane{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* button  */
+.btn{
+  padding: 20px 30px;
+  border: 1px solid #626262;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+/* footer start here  */
+
+footer{
+  background-color: #f0f0f0;
+  padding: 40px 0;
+}
+.footer-menu{
+  list-style-type: none;
+  /* alignment thik korar jnno  */
+  margin: 0;
+  padding: 0;
+}
+.footer-menu li{
+  float: left;
+  margin-right: 15px;
+  overflow: auto;
+  
+}
+
+.footer-menu li a{
+  color: #444;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+
+/* alignment thik korar jnno nicher 3ta */
+
+.footer_wrap{
+  overflow: auto;
+}
+
+.footer-left{
+  float: left;
+}
+.footer-right{
+  float: right;
+}
